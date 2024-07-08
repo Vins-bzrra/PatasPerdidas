@@ -1,0 +1,94 @@
+  .comment-separator {
+    height: 1px;
+    border: none;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.comment-area {
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-form {
+    flex: 1;
+}
+
+.comment-input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.comment-input-wrapper i {
+    margin-right: 8px;
+}
+
+.comment-input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-button {
+    background-color: #42B549;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #fdfffd;
+}
+
+.btn-back {
+    position: absolute;
+    top: -6px;
+    left: 6px;
+    z-index: 9999;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-back i {
+    font-size: 30px; 
+    color: #42B549;
+}
+
+#tag {
+    color: #007bff;
+    text-decoration: none !important;
+    cursor: default;
+  }
+  
+  #tag:hover {
+    color: #0056b3;
+  }

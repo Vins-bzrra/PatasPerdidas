@@ -1,0 +1,9 @@
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+#updateButton {
+    background-color: #42B549; 
+    border-color: #42B549;
+}

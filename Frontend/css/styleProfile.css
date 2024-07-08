@@ -1,0 +1,39 @@
+#editor {
+  width: 100%;
+  height: 200px;
+
+}
+
+body {
+  background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+  background-repeat: repeat;
+  background-position: center center;
+
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #fdfffd;
+}
+
+.editButton i {
+  color: #42B549;
+}
+
+#tag {
+  color: #007bff;
+  text-decoration: none !important;
+  cursor: default;
+}
+
+#tag:hover {
+  color: #0056b3;
+}
+
+.pac-container{
+  z-index: 10000;
+}

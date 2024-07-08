@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Usuário</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleRegister.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/register.js"></script>
+    <script src="js/previewImages.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Cadastro de Usuário</h4>
+                    </div>
+                    <div class="card-body">
+                        <form onsubmit="event.preventDefault(); registerUser();" method="POST">
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome" id="nome"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu sobrenome"
+                                    id="sobrenome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="Digite seu email" id="email"
+                                    required>
+                                <small id="email-error" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" placeholder="Digite sua senha" id="senha"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmar-senha">Confirme a sua senha</label>
+                                <input type="password" class="form-control" placeholder="Confirme sua senha"
+                                    id="confirmar-senha" required>
+                                <small id="senha-error" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="profile-picture">Foto de Perfil</label>
+                                <div id="profile-picture" class="mb-3"></div>
+                                <div class="input-group mb-3">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="post-image"
+                                            aria-describedby="inputGroupFileAddon01">
+                                        <label class="custom-file-label" for="profile-picture">Escolha um
+                                            arquivo</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Nome de Usuário</label>
+                                <input type="text" class="form-control" id="username"
+                                    placeholder="Digite seu nome de usuário" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="social-media-handle">@ da Rede Social</label>
+                                <input type="text" class="form-control" id="arroba" placeholder="Digite seu @" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button id="cadastrar-button" type="submit" class="btn btn-primary btn-block"
+                                        style="background-color: #42B549; border-color: #42B549;">Cadastrar</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="pagLogin.html" class="btn btn-outline-secondary btn-block"
+                                        style="color: #42B549; border-color: #42B549;">Login</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        previewProfile();
+        check();
+    </script>
+</body>
+
+</html>

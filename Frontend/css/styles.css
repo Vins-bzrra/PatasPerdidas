@@ -1,0 +1,24 @@
+nav {
+    width: 200px;
+    background-color: #e6ecf0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #657786;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #f2f2f2;
+  }

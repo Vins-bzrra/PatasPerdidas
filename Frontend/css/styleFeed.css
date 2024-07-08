@@ -1,0 +1,79 @@
+body {
+  background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #fdfffd;
+}
+
+#publish-button {
+  background-color: #42B549;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bi-image {
+  cursor: pointer;
+}
+
+.gridPreview {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.gridPreview-item {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 220px;
+  height: 220px;
+}
+
+.grid-empty {
+  display: none;
+}
+
+.grid-one {
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-two {
+  grid-template-columns: repeat(2, 220px);
+  grid-template-rows: auto;
+}
+
+.grid-three {
+  grid-template-columns: repeat(2, 220px);
+  grid-template-rows: repeat(1, 220px);
+}
+
+.grid-four {
+  grid-template-columns: repeat(2, 220px);
+  grid-template-rows: repeat(2, 220px);
+}
+
+.location-input-container {
+  position: relative;
+}
+
+.location-input-container .form-control {
+  width: 235px;
+  height: 30px;
+  position: absolute;
+  top: -4px;
+  left: 25px;
+}
+.hidden {
+  display: none;
+}
+

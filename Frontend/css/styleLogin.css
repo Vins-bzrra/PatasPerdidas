@@ -1,0 +1,13 @@
+body {
+    background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+    background-repeat: repeat;
+}
+
+img {
+    width: 200px
+}
+
+.btn-primary {
+    background-color: #42B549; 
+    border-color: #42B549;
+}

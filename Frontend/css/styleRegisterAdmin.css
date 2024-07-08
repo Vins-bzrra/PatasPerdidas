@@ -1,0 +1,19 @@
+.transparent-card {
+    background-color: rgba(240, 240, 240, 0.0);
+    border: none;
+    box-shadow: none;
+}
+
+.card-header {
+    background-color: rgba(240, 240, 240, 0.0);
+}
+
+#cadastrar-button {
+    background-color: #42B549; 
+    border-color: #42B549;
+}
+
+#exit-button {
+    color: #42B549; 
+    border-color: #42B549;
+}

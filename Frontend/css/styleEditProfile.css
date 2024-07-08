@@ -1,0 +1,17 @@
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+#cadastrar-button {
+    background-color: #42B549; 
+    border-color: #42B549;
+}
+
+#bio {
+    resize: none;
+}
+
+.label-preview{
+    cursor: pointer;
+}

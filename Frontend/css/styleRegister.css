@@ -1,0 +1,14 @@
+body {
+    background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+    background-repeat: repeat;
+}
+
+.card {
+    background-color: rgba(240, 240, 240, 0.0);
+    border: none;
+    box-shadow: none;
+}
+
+.card-header {
+    background-color: rgba(240, 240, 240, 0.0);
+}

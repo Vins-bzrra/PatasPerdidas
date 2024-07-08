@@ -1,0 +1,43 @@
+body {
+    background-image: url('../images/2709577_14710\ \(Personalizado\).jpg');
+    background-repeat: repeat;
+    background-position: center center;
+
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item .profile-info {
+    flex-grow: 1;
+}
+
+.list-group-item .profile-name {
+    font-weight: bold;
+}
+
+.list-group-item .profile-handle {
+    color: #657786;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #fdfffd;
+}
+
+#search-button {
+    background-color: #42B549; 
+    border-color: #42B549;
+}

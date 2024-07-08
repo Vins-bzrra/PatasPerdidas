@@ -1,0 +1,35 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  h1, p {
+    color: #1DA1F2;
+  }
+
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+
+  footer {
+    margin-top: 3rem;
+  }
+  
+  .fa-heart {
+    color: #e74c3c;
+  }
+

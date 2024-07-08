@@ -1,0 +1,51 @@
+.btn-primary {
+  background-color: #42B549; 
+  border-color: #42B549; 
+  color: #fff;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #42B549; 
+  border-color: #42B549; 
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem #42B549;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #42B549; 
+  border-color: #42B549; 
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  background-color: #42B549; 
+  border-color: #42B549; 
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #42B549;
+}
+
+.btn-primary.liked {
+  background-color: #42B549; 
+  border-color: #42B549; 
+}
+
+.btn-outline-primary {
+  color: #42B549; 
+  border-color: #42B549; 
+  border-radius: 20px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #42B549; 
+  border-color: #42B549; 
+}
