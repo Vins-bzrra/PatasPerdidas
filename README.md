@@ -12,7 +12,7 @@ O projeto foi desenvolvido com o propósito de ser modular e de fácil implement
 ## 🔨 Funcionalidades do projeto
 A API realiza o cadastro, login, publicação de postagens e comentários, bem como outros recursos esperados de uma rede social, como: curtir as publicações, página de perfil, personalização do perfil, uma timeline das publicações, entre outras funcionalidades.
 
-O frontend apresentado apresentado como proposta do projeto foi desenvolvido utilizando HTML, CSS, JavaScript e o framework Bootstrap para fornecer uma interface responsiva, visto que muitas pessoas acessam redes sociais pelo telefone. Assim o visual se mantém consistente tanto para quem utilizar pelo computador quanto por quem utilizar pelo smartphone.
+O frontend apresentado como proposta do projeto foi desenvolvido utilizando HTML, CSS, JavaScript e o framework Bootstrap para fornecer uma interface responsiva, visto que muitas pessoas acessam redes sociais pelo telefone. Assim o visual se mantém consistente tanto para quem utilizar pelo computador quanto por quem utilizar pelo smartphone.
 
 ## 📁 Acesso ao projeto
 
